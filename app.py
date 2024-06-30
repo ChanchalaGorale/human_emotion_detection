@@ -2,7 +2,6 @@ import streamlit as st
 import tensorflow as tf
 from tensorflow.keras.models import model_from_json
 from PIL import Image
-import cv2
 import numpy as np
 
 def load_model(json_file_path, weights_file_path):
